@@ -9,7 +9,7 @@
 		<title>@yield('title') | Yorkshaire Transplant</title>
 
 		<!-- Favicons -->
-		<link type="image/x-icon" href="assets/img/favicon.png" rel="icon">
+		<link type="image/x-icon" href="assets/img/yorkshirefavicon.png" rel="icon">
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -46,13 +46,13 @@
 							</span>
 						</a>
 						<a href="index-2.html" class="navbar-brand logo">
-							<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+							<img src="assets/img/yorkshirelogo2.png" class="img-fluid" alt="Logo">
 						</a>
 					</div>
 					<div class="main-menu-wrapper">
 						<div class="menu-header">
 							<a href="index-2.html" class="menu-logo">
-								<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+								<img src="assets/img/yorkshirelogo2.png" class="img-fluid" alt="Logo">
 							</a>
 							<a id="menu_close" class="menu-close" href="javascript:void(0);">
 								<i class="fas fa-times"></i>
@@ -61,6 +61,9 @@
 						<ul class="main-nav">
 							<li class="active">
 								<a href="index-2.html">Home</a>
+							</li>
+                            <li>
+								<a href="aboutus">About Us</a>
 							</li>
 							<li class="has-submenu">
 								<a href="#">Doctors <i class="fas fa-chevron-down"></i></a>
@@ -153,7 +156,7 @@
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-about">
 									<div class="footer-logo">
-										<img src="assets/img/footer-logo.png" alt="logo">
+										<img src="assets/img/yorkshirelogowhite.png" style="height: 90px" alt="logo">
 									</div>
 									<div class="footer-about-content">
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -244,38 +247,6 @@
 					</div>
 				</div>
 				<!-- /Footer Top -->
-
-				<!-- Footer Bottom -->
-                <div class="footer-bottom">
-					<div class="container-fluid">
-
-						<!-- Copyright -->
-						<div class="copyright">
-							<div class="row">
-								<div class="col-md-6 col-lg-6">
-									<div class="copyright-text">
-										<p class="mb-0"><a href="templateshub.net">Templates Hub</a></p>
-									</div>
-								</div>
-								<div class="col-md-6 col-lg-6">
-
-									<!-- Copyright Menu -->
-									<div class="copyright-menu">
-										<ul class="policy-menu">
-											<li><a href="term-condition.html">Terms and Conditions</a></li>
-											<li><a href="privacy-policy.html">Policy</a></li>
-										</ul>
-									</div>
-									<!-- /Copyright Menu -->
-
-								</div>
-							</div>
-						</div>
-						<!-- /Copyright -->
-
-					</div>
-				</div>
-				<!-- /Footer Bottom -->
 
 			</footer>
 			<!-- /Footer -->

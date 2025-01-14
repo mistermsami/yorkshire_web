@@ -14,30 +14,6 @@
             font-weight: bold
         }
 
-        /* .Styles__ScribbleImageWrapper-sc{
-                                     position: absolute;
-                                     margin-left: -5%;
-
-                                } */
-        /* .ikJaVl span {
-                                    display: initial;
-                                    margin: 0px;
-                                } */
-        /* .BumFl {
-                                    position: absolute;
-                                    z-index: 1;
-                                    width: 110%;
-                                    bottom: -0.3em;
-                                    margin-left: -5%;
-                                    height: 0.4em;
-                                } */
-        /* .underline img{
-                                    position: absolute;
-                                    height: 100%;
-                                    width: 100%;
-                                    inset: 0px;
-                                    color: transparent;
-                                } */
         .belowheadinghome {
             position: absolute;
             margin-left: -12%;
@@ -58,22 +34,47 @@
             padding: 15px 10px 0 10px;
             font-weight: 600;
         }
-        .resultcard{
-            border: 1px solid #15558d
-        }
-        .resultcard img{
+
+        /* .resultcard{
+                    border: 1px solid #15558d
+                } */
+        .resultcard img {
             height: 400px;
             margin: 0;
             padding: 0
         }
-        .compairimg1{
+
+        .compairimg1 {
             margin: 0;
             padding: 0;
             border-right: 1px solid #fff
         }
-        .compairimg2{
+
+        .compairimg2 {
             margin: 0;
             padding: 0;
+        }
+
+        .clients_review {
+            background-color: #f8f9fa;
+        }
+
+        .clinic_fratures {
+            background-color: #d3e9ff5a;
+        }
+
+        .results {
+            background-color: #ccf5ff;
+        }
+
+        .results .slick-slide {
+            transform: scale(.8);
+            opacity: .6
+        }
+
+        .results .slick-current {
+            transform: scale(1.2);
+            opacity: 1;
         }
 
 
@@ -195,7 +196,7 @@
     <!-- /Popular Section -->
 
     <!-- Availabe Features -->
-    <section class="section section-features">
+    <section class="section section-features clinic_fratures">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-5 features-img">
@@ -257,7 +258,7 @@
     <!-- Availabe Features -->
 
     <!-- Clinic and Specialities -->
-    <section class="section section-specialities">
+    <section class="section section-specialities clients_review">
         <div class="container-fluid">
             <div class="section-header text-center">
                 <h2>See what our clients say about us!</h2>
@@ -414,7 +415,7 @@
     <!-- Clinic and Specialities -->
 
     <!-- Availabe Features -->
-    <section class="section section-features">
+    <section class="section section-features results">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -423,82 +424,102 @@
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page
                             when looking at its layout. </p>
                     </div>
-                    <div class="features-slider slider">
-                        <!-- Slider Item -->
-                        <div class="card resultcard">
-                            <div class="row">
-                                <div class="col-md-6 compairimg1">
-                                    <img src="assets/img/features/feature-01.jpg" class="img-fluid" alt="Feature">
+
+                </div>
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-md-10">
+                            <div class="features-slider slider">
+                                <!-- Slider Item -->
+                                <div class="card resultcard">
+                                    <div class="row">
+                                        <div class="col-md-6 compairimg1">
+                                            <img src="assets/img/features/feature-01.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                        <div class="col-md-6 compairimg2">
+                                            <img src="assets/img/features/feature-02.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 compairimg2">
-                                    <img src="assets/img/features/feature-02.jpg" class="img-fluid" alt="Feature">
+                                <!-- /Slider Item -->
+                                <!-- Slider Item -->
+                                <div class="card resultcard">
+                                    <div class="row">
+                                        <div class="col-md-6 compairimg1">
+                                            <img src="assets/img/features/feature-01.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                        <div class="col-md-6 compairimg2">
+                                            <img src="assets/img/features/feature-02.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- /Slider Item -->
-                        <!-- Slider Item -->
-                        <div class="card resultcard">
-                            <div class="row">
-                                <div class="col-md-6 compairimg1">
-                                    <img src="assets/img/features/feature-01.jpg" class="img-fluid" alt="Feature">
+                                <!-- /Slider Item -->
+                                <!-- Slider Item -->
+                                <div class="card resultcard">
+                                    <div class="row">
+                                        <div class="col-md-6 compairimg1">
+                                            <img src="assets/img/features/feature-01.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                        <div class="col-md-6 compairimg2">
+                                            <img src="assets/img/features/feature-02.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 compairimg2">
-                                    <img src="assets/img/features/feature-02.jpg" class="img-fluid" alt="Feature">
+                                <!-- /Slider Item -->
+                                <!-- Slider Item -->
+                                <div class="card resultcard">
+                                    <div class="row">
+                                        <div class="col-md-6 compairimg1">
+                                            <img src="assets/img/features/feature-01.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                        <div class="col-md-6 compairimg2">
+                                            <img src="assets/img/features/feature-02.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- /Slider Item -->
-                        <!-- Slider Item -->
-                        <div class="card resultcard">
-                            <div class="row">
-                                <div class="col-md-6 compairimg1">
-                                    <img src="assets/img/features/feature-01.jpg" class="img-fluid" alt="Feature">
+                                <!-- /Slider Item -->
+                                <!-- Slider Item -->
+                                <div class="card resultcard">
+                                    <div class="row">
+                                        <div class="col-md-6 compairimg1">
+                                            <img src="assets/img/features/feature-01.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                        <div class="col-md-6 compairimg2">
+                                            <img src="assets/img/features/feature-02.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 compairimg2">
-                                    <img src="assets/img/features/feature-02.jpg" class="img-fluid" alt="Feature">
+                                <!-- /Slider Item -->
+                                <!-- Slider Item -->
+                                <div class="card resultcard">
+                                    <div class="row">
+                                        <div class="col-md-6 compairimg1">
+                                            <img src="assets/img/features/feature-01.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                        <div class="col-md-6 compairimg2">
+                                            <img src="assets/img/features/feature-02.jpg" class="img-fluid"
+                                                alt="Feature">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- /Slider Item -->
-                        <!-- Slider Item -->
-                        <div class="card resultcard">
-                            <div class="row">
-                                <div class="col-md-6 compairimg1">
-                                    <img src="assets/img/features/feature-01.jpg" class="img-fluid" alt="Feature">
-                                </div>
-                                <div class="col-md-6 compairimg2">
-                                    <img src="assets/img/features/feature-02.jpg" class="img-fluid" alt="Feature">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Slider Item -->
-                        <!-- Slider Item -->
-                        <div class="card resultcard">
-                            <div class="row">
-                                <div class="col-md-6 compairimg1">
-                                    <img src="assets/img/features/feature-01.jpg" class="img-fluid" alt="Feature">
-                                </div>
-                                <div class="col-md-6 compairimg2">
-                                    <img src="assets/img/features/feature-02.jpg" class="img-fluid" alt="Feature">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Slider Item -->
-                        <!-- Slider Item -->
-                        <div class="card resultcard">
-                            <div class="row">
-                                <div class="col-md-6 compairimg1">
-                                    <img src="assets/img/features/feature-01.jpg" class="img-fluid" alt="Feature">
-                                </div>
-                                <div class="col-md-6 compairimg2">
-                                    <img src="assets/img/features/feature-02.jpg" class="img-fluid" alt="Feature">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Slider Item -->
+                                <!-- /Slider Item -->
 
 
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
