@@ -60,11 +60,11 @@
         }
 
         .clinic_fratures {
-            background-color: #d3e9ff5a;
+            background-color: #fff;
         }
 
         .results {
-            background-color: #ccf5ff;
+            background-color: #f3f1ee;
         }
 
         .results .slick-slide {

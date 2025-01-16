@@ -45,13 +45,13 @@
 								<span></span>
 							</span>
 						</a>
-						<a href="index-2.html" class="navbar-brand logo">
+						<a href="/" class="navbar-brand logo">
 							<img src="assets/img/yorkshirelogo2.png" class="img-fluid" alt="Logo">
 						</a>
 					</div>
 					<div class="main-menu-wrapper">
 						<div class="menu-header">
-							<a href="index-2.html" class="menu-logo">
+							<a href="/" class="menu-logo">
 								<img src="assets/img/yorkshirelogo2.png" class="img-fluid" alt="Logo">
 							</a>
 							<a id="menu_close" class="menu-close" href="javascript:void(0);">
@@ -60,10 +60,13 @@
 						</div>
 						<ul class="main-nav">
 							<li class="active">
-								<a href="index-2.html">Home</a>
+								<a href="/">Home</a>
 							</li>
                             <li>
 								<a href="aboutus">About Us</a>
+							</li>
+                            <li>
+								<a href="contactus">Contact Us</a>
 							</li>
 							<li class="has-submenu">
 								<a href="#">Doctors <i class="fas fa-chevron-down"></i></a>
